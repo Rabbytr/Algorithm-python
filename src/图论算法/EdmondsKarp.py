@@ -1,5 +1,7 @@
 from collections import deque
 
+''' 寻找从s到t的最大流量 '''
+
 class edge():
     def __init__(self,fro,to,cap):
         self.fro = fro
